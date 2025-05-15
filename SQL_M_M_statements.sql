@@ -1,6 +1,3 @@
-# Sprint12_TC_SQL_Murder_Mistery
-
-```SQL
 -- Get all info from the murder
 select *
 from crime_scene_report
@@ -52,9 +49,8 @@ where (id = 173289 or id = 423327) and plate_number like '%H42W%';
 
 -- id	    age	    height	eye_color	hair_color	gender	plate_number	car_make	car_model
 -- 423327	30	    70	    brown	    brown	    male	0H42W2	        Chevrolet	Spark LS
-```
-# 1st answer: Jeremy Bowers
-```SQL
+
+-- 1st answer: Jeremy Bowers
 INSERT INTO solution VALUES (1, 'Jeremy Bowers');
         
         SELECT value FROM solution;
@@ -85,12 +81,10 @@ where person_id in (78881, 90700, 99716) and event_name = 'SQL Symphony Concert'
 -- 99716	    1143	    SQL Symphony Concert	20171206
 -- 99716	    1143	    SQL Symphony Concert	20171212
 -- 99716	    1143	    SQL Symphony Concert	20171229
-```
-# 2nd answer: Miranda Priestly
-```SQL
+
+-- 2nd answer: Miranda Priestly
 INSERT INTO solution VALUES (1, 'Miranda Priestly');
         
         SELECT value FROM solution;
 
 -- Congrats, you found the brains behind the murder! Everyone in SQL City hails you as the greatest SQL detective of all time. Time to break out the champagne!
-```
